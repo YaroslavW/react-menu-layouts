@@ -1,11 +1,13 @@
 import React from 'react';
+import Menu from './Components/Menu';
 import './App.css';
 
 function App() {
+  const menu_items = ["home", 'about', 'goods', 'contacts']
   return (
-    <div className="App">
-      My App
-    </div>
+    <>
+      <Menu data={menu_items} />
+    </>
   );
 }
 
